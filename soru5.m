@@ -1,6 +1,6 @@
 clear all
 clc
-I = imread('C:\Users\Administrator\Desktop\Görüntüvizesoruları\resimler\sanliurfa.jpg');
+I = imread('C:\Users\Administrator\Desktop\GÃ¶rÃ¼ntÃ¼sorularÃ½\resimler\sanliurfa.jpg');
 I= rgb2gray(I);
 %gaussian filter
 G = fspecial('gaussian',[3 3],0.8);
