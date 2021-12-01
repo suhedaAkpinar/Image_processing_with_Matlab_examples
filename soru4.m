@@ -1,6 +1,6 @@
  clear all
  clc
- Im=imread('C:\Users\Administrator\Desktop\Görüntüvizesorularý\resimler\lena.tif');
+ Im=imread('C:\Users\Administrator\Desktop\GÃ¶rÃ¼ntÃ¼sorularÃ½\resimler\lena.tif');
  figure,imshow(Im);title('Original');
  
  GIm=uint8(zeros(size(Im,1),size(Im,2)));
@@ -17,8 +17,8 @@
  
  figure,imshow(GIm);title('Gri');
  figure,imshow(GIm,[50,100]);title('Siyah-Beyaz');
- figure,imshow(img_size);title('Küçültme');
- figure,imshow(img_rot);title('60 derece döndürme');
+ figure,imshow(img_size);title('KÃ¼Ã§Ã¼ltme');
+ figure,imshow(img_rot);title('60 derece dÃ¶ndÃ¼rme');
  figure,imshow(g);title('Mirror');
  
  
