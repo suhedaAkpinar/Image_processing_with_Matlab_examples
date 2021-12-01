@@ -1,6 +1,6 @@
 clear all
 clc
-Res=imread('C:\Users\Administrator\Desktop\Görüntüvizesorularý\resimler\hispic.jpg');
+Res=imread('C:\Users\Administrator\Desktop\GÃ¶rÃ¼ntÃ¼\resimler\hispic.jpg');
 
 
 q=histeq(Res);
