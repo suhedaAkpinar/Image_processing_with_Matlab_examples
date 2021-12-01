@@ -1,11 +1,11 @@
 clear all
 clc
-Res = imread('C:\Users\Administrator\Desktop\Görüntüvizesorularý\resimler\1024pic.jpg');
+Res = imread('\1024pic.jpg');
 whos Res %Resmin orjinal boyutu
-b=imresize(Res,[ 128  128]); %boyutunu küçülttüm
+b=imresize(Res,[ 128  128]); %boyutunu kÃ¼Ã§Ã¼lttÃ¼m
 whos b
 grayimage = rgb2gray(b);
-negimage=imadjust(grayimage,[0 1],[1 0]);%burada negatifini aldým
+negimage=imadjust(grayimage,[0 1],[1 0]);%burada negatifini aldÃ½m
 subplot(1,4,1),
 imshow(Res), title('Orijinal resim')
 subplot(1,4,2),
